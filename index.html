@@ -21,12 +21,12 @@
 
             .cake {
                 position: absolute;
-                width: 150px;
-                height: 600px;
+                width: 600px;
+                height: 500px;
                 top: 50%;
                 left: 50%;
-                margin-top: -300px;
-                margin-left: -75px;
+                margin-top: -250px;
+                margin-left: -300px;
             }
 
             .cake > * {
@@ -37,43 +37,44 @@
             .icing {
                 display: block;
                 width: 100%;
-                -moz-border-radius: 60px / 25px;
-                -webkit-border-radius: 60px / 25px;
-                border-radius: 60px / 25px;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
                 border: solid 1px black;
             }
 
             .layer {
-                margin-top: -50px;
-                height: 100px;
+                margin-top: -100px;
+                height: 200px;
                 background: #553c13;
                 z-index: 0;
             }
 
-            .top {
-                 background: red;
-                 z-index: 3;
+            .bottom {
+                z-index: 1;
             }
 
             .middle {
-                 background: green;
                  z-index: 2;
             }
 
-            .bottom {
-                background: blue;
-                z-index: 1;
+            .top {
+                 z-index: 3;
+            }
+
+            .top,
+            .icing {
+                border-top-left-radius: 25%;
+                border-top-right-radius: 25%;
             }
 
             .icing {
                 margin-top: 0px;
-                height: 50px;
+                height: 100px;
                 background: #f0e4d0;
                 z-index: 4;
             }
 
             .drip {
-                display: block;
                 border-bottom-left-radius: 50%;
                 border-bottom-right-radius: 50%;
                 background-color: #f0e4d0;
@@ -83,7 +84,7 @@
 
             .drip1 {
                 width: 40px;
-                height: 40px;
+                height: 50px;
                 margin-top: 35px;
                 margin-left: -1px;
                 border-left: solid 1px black;
@@ -92,20 +93,20 @@
             }
 
             .drip2 {
-                width: 70px;
-                height: 50px;
+                width: 150px;
+                height: 100px;
                 margin-top: -60px;
                 margin-left: 40px;
             }
 
             .drip3 {
-                width: 50px;
-                height: 50px;
-                margin-top: -35px;
-                margin-left: 99px;
+                width: 100px;
+                height: 90px;
+                margin-top: -50px;
+                margin-left: 185px;
                 border-left: solid 1px black;
                 border-right: solid 1px black;
-                transform: skewY(-25deg);
+                transform: skewY(-20deg);
             }
         </style>
     </head>
