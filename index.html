@@ -1,6 +1,113 @@
 <html>
     <head>
         <title>Birthday Cake</title>
+        <style>
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                outline: none;
+            }
+
+            body {
+                background-color: #F08080;
+                background: linear-gradient(to bottom, #F08080 0%, #E9967A 50%, #FF7F50 100%);
+                background: -webkit-linear-gradient(top, #F08080 0%, #E9967A 50%,#FF7F50 100%);
+                background: -moz-linear-gradient(top, #F08080 0%, #E9967A 50%,#FF7F50 100%);
+                background: -o-linear-gradient(top, #F08080 0%, #E9967A 50%,#FF7F50 100%);
+                background: -ms-linear-gradient(top, #F08080 0%, #E9967A 50%,#FF7F50 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F08080', endColorstr='#FF7F50',GradientType=0);
+            }
+
+            .cake {
+                position: absolute;
+                width: 150px;
+                height: 600px;
+                top: 50%;
+                left: 50%;
+                margin-top: -300px;
+                margin-left: -75px;
+            }
+
+            .cake > * {
+                position: relative;
+            }
+
+            .layer, 
+            .icing {
+                display: block;
+                width: 100%;
+                -moz-border-radius: 60px / 25px;
+                -webkit-border-radius: 60px / 25px;
+                border-radius: 60px / 25px;
+                border: solid 1px black;
+            }
+
+            .layer {
+                margin-top: -50px;
+                height: 100px;
+                background: #553c13;
+                z-index: 0;
+            }
+
+            .top {
+                 background: red;
+                 z-index: 3;
+            }
+
+            .middle {
+                 background: green;
+                 z-index: 2;
+            }
+
+            .bottom {
+                background: blue;
+                z-index: 1;
+            }
+
+            .icing {
+                margin-top: 0px;
+                height: 50px;
+                background: #f0e4d0;
+                z-index: 4;
+            }
+
+            .drip {
+                display: block;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+                background-color: #f0e4d0;
+                border-bottom: solid 1px black;
+                z-index: 5;
+            }
+
+            .drip1 {
+                width: 40px;
+                height: 40px;
+                margin-top: 35px;
+                margin-left: -1px;
+                border-left: solid 1px black;
+                border-right: solid 1px black;
+                transform: skewY(20deg);
+            }
+
+            .drip2 {
+                width: 70px;
+                height: 50px;
+                margin-top: -60px;
+                margin-left: 40px;
+            }
+
+            .drip3 {
+                width: 50px;
+                height: 50px;
+                margin-top: -35px;
+                margin-left: 99px;
+                border-left: solid 1px black;
+                border-right: solid 1px black;
+                transform: skewY(-25deg);
+            }
+        </style>
     </head>
     <body>
         <div class="candle">
@@ -11,12 +118,11 @@
             <div class="flame"></div>
         </div>
         <div class="cake">
-            <div class="icing"></div>
-            <div class="icing drip1"></div>
-            <div class="icing drip2"></div>
-            <div class="icing drip3"></div>
-            <div class="icing drip4"></div>
-            <div class="icing drip5"></div>
+            <div class="icing">
+                <div class="drip drip1"></div>
+                <div class="drip drip2"></div>
+                <div class="drip drip3"></div>
+            </div>
             <div class="layer top"></div>
             <div class="layer middle"></div>
             <div class="layer bottom"></div>
