@@ -208,57 +208,71 @@
                 color: #f0e4d0;
             }
         </style>
+        <script>
+            let DEFAULT_CANDLES_COUNT = 9;
+            let candlesCount = getRequestParamValue("candles");
+            if (candlesCount == null || candlesCount == 'undefined') {
+                candlesCount = DEFAULT_CANDLES_COUNT;
+            }
+
+            function getRequestParamValue(paramName) {
+                var url_string = window.location.href;
+                var url = new URL(url_string);
+                var paramValue = url.searchParams.get(paramName);
+
+                return paramValue;
+            }
+
+            function appendCandles() {
+                for (var i = 0; i < candlesCount; i++) {
+                    let candleXPosition = ((-310 + (600 / candlesCount) / 2) + ((600 / candlesCount) * i));
+                    let candleYPosition = -1 * Math.floor(Math.random() * (340 - 305 + 1) + 305);
+
+                    document.body.innerHTML = document.body.innerHTML
+                    + "<div class=\"candle\" style=\"margin-left: " + candleXPosition + "px; margin-top: " + candleYPosition + "px;\" onclick=\"putOutCandle(this);\">"
+                    + "\n"
+                    + "<div class=\"flame\"></div>"
+                    + "\n"
+                    + "<div class=\"flame\"></div>"
+                    + "\n"
+                    + "<div class=\"flame\"></div>"
+                    + "\n"
+                    + "<div class=\"flame\"></div>"
+                    + "\n"
+                    + "<div class=\"flame\"></div>"
+                    + "\n"
+                    + "</div>"
+                    + "";
+                }
+            }
+
+            function putOutCandle(candle) {
+                if (candle == null) {
+                    return;
+                }
+
+                for (var i = 0; i < 5; i++) {
+                    var flame = candle.querySelector('.flame');
+                    
+                    if (flame != null) {
+                        flame.remove();
+                    }
+                }
+            }
+
+            function putOutCandles() {
+                let candles = document.getElementsByClassName("candle");
+                if (candles == null) {
+                    return;
+                }
+                
+                for (var i = 0; i < candles.length; i++) {
+                    putOutCandle(candles[i]);
+                }
+            }
+        </script>
     </head>
-    <body>
-        <div class="candle" style="margin-left: -250px; margin-top: -325px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
-        <div class="candle" style="margin-left: -170px; margin-top: -335px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
-        <div class="candle" style="margin-left: -90px; margin-top: -305px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
-        <div class="candle" style="margin-left: -10px; margin-top: -325px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
-        <div class="candle" style="margin-left: 90px; margin-top: -305px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
-        <div class="candle" style="margin-left: 170px; margin-top: -335px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
-        <div class="candle" style="margin-left: 250px; margin-top: -325px;">
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-            <div class="flame"></div>
-        </div>
+    <body onload="appendCandles();">
         <div class="cake">
             <div class="icing">
                 <div class="drip"></div>
