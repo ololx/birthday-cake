@@ -8,7 +8,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 
-- Refactor old project classes via game dev patterns implemetation.
+- Refactor with Objects and Classes.
+
+## [1.1.0] - 2021-06-27
+
+### Added
+
+- The new URL param `message` - is an array of message rows.
 
 ## [1.0.0] - 2021-06-11
 
