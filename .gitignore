@@ -1,0 +1,9 @@
+# all files
+.*
+*
+
+#exclude
+!.gitignore
+!*.html
+!*.css
+!*.js
