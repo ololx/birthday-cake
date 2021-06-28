@@ -2,7 +2,7 @@
 
 This is a simple animated birthday cake to congratulate someone. 
 
-[![status](https://img.shields.io/badge/status-completed-inactive?style=flat-square)](BADGES_GUIDE.md#status) [![version](https://img.shields.io/badge/version-1.0.0-informational?style=flat-square)](BADGES_GUIDE.md#version) [![stable](https://img.shields.io/badge/stable-yes-important?style=flat-square)](BADGES_GUIDE.md#stable)  [![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-archived-important?style=flat-square)](BADGES_GUIDE.md#oss-lifecycle) [![maintenance](https://img.shields.io/badge/maintenance-no-informational?style=flat-square)](BADGES_GUIDE.md#maintenance) [![latest release date](https://img.shields.io/badge/latest_release_date-June_11,_2021-informational?style=flat-square)](BADGES_GUIDE.md#release-date) [![latest commit](https://img.shields.io/badge/last_commit-June_21,_2021-informational?style=flat-square)](BADGES_GUIDE.md#commit-date)
+[![status](https://img.shields.io/badge/status-completed-inactive?style=flat-square)](BADGES_GUIDE.md#status) [![version](https://img.shields.io/badge/version-1.1.0-informational?style=flat-square)](BADGES_GUIDE.md#version) [![stable](https://img.shields.io/badge/stable-yes-important?style=flat-square)](BADGES_GUIDE.md#stable)  [![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-archived-important?style=flat-square)](BADGES_GUIDE.md#oss-lifecycle) [![maintenance](https://img.shields.io/badge/maintenance-no-informational?style=flat-square)](BADGES_GUIDE.md#maintenance) [![latest release date](https://img.shields.io/badge/latest_release_date-June_11,_2021-informational?style=flat-square)](BADGES_GUIDE.md#release-date) [![latest commit](https://img.shields.io/badge/last_commit-June_27,_2021-informational?style=flat-square)](BADGES_GUIDE.md#commit-date)
 
 [![license](https://img.shields.io/badge/license-UNLICENCE-informational?style=flat-square)](LICENSE) 
 
@@ -21,7 +21,7 @@ This is a simple animated birthday cake to congratulate someone.
 
 ##  📖 About
 
-This is a simple animated birthday cake written in Vanilla JavaScript, CSS and HTML.
+This is a simple animated birthday cake written in Vanilla JavaScript, CSS and HTML. It allows you to set the number of candles, the addressee name to display the phrase "Happy Birthday" or set your own congratulations. It is deployed here https://ololx.github.io/birthday-cake/.
 
 ## 📸 Demo
 
@@ -61,19 +61,31 @@ https://github.com/ololx/birthday-cake
 
 To use it is enough to open the `index.html` file in the web-browser.
 
-**It's possible to define the count of candles and name in the congratulation message via `request param`.** 
+**It's possible to define the count of candles and addresse name  or set your own congratulations via `request param`.** 
 
-- To specify the candles count use the param name is `candles`.  *For instance setup the 15 candles on the cake:*
+- To specify the candles count use the param `candles`.  *For instance setup the 15 candles on the cake:*
 
 ```http
 .../index.html?candles=15
 ```
 
-- To specify the name in the congratulation message use the param name is `name`.  *For instance setup the `my Friend` as a name in the congratulation message :*
+Live example here https://ololx.github.io/birthday-cake/?candles=15
+
+- To specify the name in the congratulation message use the param `name`.  *For instance setup the `Green` as a name in the congratulation message :*
 
 ```http
-.../index.html?name=my%20Friend
+.../index.html?name=Green
 ```
+
+Live example here https://ololx.github.io/birthday-cake/?name=Green
+
+- To specify the congratulations message use the param  `message`.  *For instance setup the `my Friend` as a name in the congratulation message :*
+
+```http
+.../index.html?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day!
+```
+
+Live example here https://ololx.github.io/birthday-cake/?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day!
 
 ## 🗒 Versioning
 
