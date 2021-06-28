@@ -21,7 +21,7 @@ This is a simple animated birthday cake to congratulate someone.
 
 ##  📖 About
 
-This is a simple animated birthday cake written in Vanilla JavaScript, CSS and HTML.
+This is a simple animated birthday cake written in Vanilla JavaScript, CSS and HTML. It allows you to set the number of candles, the addressee name to display the phrase "Happy Birthday" or set your own congratulations. It is deployed here https://ololx.github.io/birthday-cake/.
 
 ## 📸 Demo
 
@@ -61,19 +61,31 @@ https://github.com/ololx/birthday-cake
 
 To use it is enough to open the `index.html` file in the web-browser.
 
-**It's possible to define the count of candles and name in the congratulation message via `request param`.** 
+**It's possible to define the count of candles and addresse name  or set your own congratulations via `request param`.** 
 
-- To specify the candles count use the param name is `candles`.  *For instance setup the 15 candles on the cake:*
+- To specify the candles count use the param `candles`.  *For instance setup the 15 candles on the cake:*
 
 ```http
 .../index.html?candles=15
 ```
 
-- To specify the name in the congratulation message use the param name is `name`.  *For instance setup the `my Friend` as a name in the congratulation message :*
+Live example here https://ololx.github.io/birthday-cake/?candles=15
+
+- To specify the name in the congratulation message use the param `name`.  *For instance setup the `Green` as a name in the congratulation message :*
 
 ```http
-.../index.html?name=my%20Friend
+.../index.html?name=Green
 ```
+
+Live example here https://ololx.github.io/birthday-cake/?name=Green
+
+- To specify the congratulations message use the param  `message`.  *For instance setup the `my Friend` as a name in the congratulation message :*
+
+```http
+.../index.html?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day!
+```
+
+Live example here https://ololx.github.io/birthday-cake/?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day!
 
 ## 🗒 Versioning
 
