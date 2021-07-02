@@ -38,10 +38,10 @@ In both cases, the project can still be used.
 
 Please visit the [contributing](CONTRIBUTING.md) page if you faced with some issues with the project.
 
-## Release Date
+## Last Release
 
 This is an information about the project release date which would be stable and could be used. In this case, it is possible to indicate the date of the first release, last release, release of a specific version.
 
-## Commit Date
+## Last Commit
 
 This is an information about the project commit date, which would show the last commit date in the project repository.
