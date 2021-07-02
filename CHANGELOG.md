@@ -10,6 +10,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 - Refactor with Objects and Classes.
 
+## [1.1.1] - 2021-07-02
+
+### Changed
+
+- Methods for appending candles and greeting name.
+
 ## [1.1.0] - 2021-06-27
 
 ### Added
