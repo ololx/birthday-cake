@@ -1,40 +1,30 @@
-let candlesCount = 9;
-let messageName = "to you";
-
 function init() {
-	var url_string = window.location.href;
-	var url = new URL(url_string);
+	var url = new URL(window.location.href);
 
-	if (url.searchParams.get("candles") != null) {
-		candlesCount = url.searchParams.get("candles");
-	}
-	
-	if (url.searchParams.get("name") != null) {
-		messageName = url.searchParams.get("name");
-	}
-
-	appendCandles();
-	appendName();
+	appendCandles(url.searchParams.get("candles"));
+	appendName(url.searchParams.get("name"));
 	appendMessages(url.searchParams.getAll("message"));
 }
 
 function appendMessages(messages) {
 	if (!Array.isArray(messages) || messages.length == 0) return;
 	
-	let messageBox = document.getElementById(`message_container`);
-	if (messageBox == null || messageBox == `undefined`) return;
+	let messageBox = document.getElementById("message_container");
+	if (messageBox == null || messageBox == 'undefined') return;
 	
 	messageBox.innerHTML = `${messages.join("<br />")}`;
 }
 
-function appendName() {
-	let message = document.getElementById(`message_container`);
-	if (message == null) return;
+function appendName(message) {
+	let messageBox = document.getElementById("message_container");
+	if (messageBox == null) return;
 
-	message.innerHTML = `Happy Birthday ${messageName}`;
+	messageBox.innerHTML = `Happy Birthday ${message != null ? message : "to you!"}`;
 }
 
-function appendCandles() {
+function appendCandles(candlesCount) {
+	if (candlesCount == null) candlesCount = 9;
+	
 	let candleHalfCount = 1;
 	for (var i = 0; i < candlesCount; i++) {
 		if ((i + 1) < (candlesCount / 2)) candleHalfCount++;
@@ -47,7 +37,7 @@ function appendCandles() {
 		document.body.innerHTML += `<div id="candle_${i}" class="candle" style="margin-left:${candleXPosition}px; margin-top:${candleYPosition}px;"></div>`;
 		
 		let candle = document.getElementById(`candle_${i}`);
-		candle.setAttribute(`onClick`,`putOutCandle(candle_${i});`);
+		candle.setAttribute("onClick", "putOutCandle(candle_${i});");
 
 		for (var j = 0; j < 5; j++) {
 			candle.innerHTML += `<div class="flame"></div>`;
@@ -68,7 +58,10 @@ function putOutCandle(candle) {
 }
 
 function putOutCandles() {
-	for (var i = 0; i < candlesCount; i++) {
+	let candles = document.getElementsByClassName("candle");
+	if (candles == null || candles == 'undefined') return;
+	
+	for (var i = 0; i < candles.length; i++) {
 		putOutCandle(document.getElementById(`candle_${i}`));
 	}
 }
