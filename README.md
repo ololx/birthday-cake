@@ -25,7 +25,7 @@ This is a simple animated birthday cake written in Vanilla JavaScript, CSS and H
 
 ## 📸 Demo
 
-These animation demonstrate the main game process - press any button to fly so long as it possible.
+This animation demonstrate the usage process.
 <img src="https://github.com/ololx/birthday-cake/blob/assets/demo/birthday-cake-demo-1.gif?raw=true" align="center" width="100%"/>
 
 ## 🎚 Features
