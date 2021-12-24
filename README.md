@@ -1,12 +1,24 @@
+<div align="right">
+	<a href="https://github.com/ololx/birthday-cake/discussions" target="_blank">
+		<img src="https://img.shields.io/github/discussions/ololx/birthday-cake?label=welcome%20to%20discussions&logo=github&style=social" alt="discutions"/>
+	</a>
+</div> 
+
 # birthday-cake
 
 This is a simple animated birthday cake to congratulate someone. 
 
-[![status](https://img.shields.io/badge/status-completed-inactive?style=flat-square)](BADGES_GUIDE.md#status) [![version](https://img.shields.io/badge/version-1.1.1-informational?style=flat-square)](BADGES_GUIDE.md#version) [![stable](https://img.shields.io/badge/stable-yes-important?style=flat-square)](BADGES_GUIDE.md#stable)  [![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-maintenance-important?style=flat-square)](BADGES_GUIDE.md#oss-lifecycle) [![maintenance](https://img.shields.io/badge/maintenance-yes-informational?style=flat-square)](BADGES_GUIDE.md#maintenance) [![last release](https://img.shields.io/badge/last_release-June_11,_2021-informational?style=flat-square)](BADGES_GUIDE.md#release-date) [![latest commit](https://img.shields.io/badge/last_commit-November_02,_2021-informational?style=flat-square)](BADGES_GUIDE.md#commit-date)
+[![tag](https://img.shields.io/github/v/tag/ololx/birthday-cake?include_prereleases&logo=github&style=flat)](https://github.com/ololx/birthday-cake/tags) [![release](https://img.shields.io/github/v/release/ololx/birthday-cake?include_prereleases&logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) 
 
-[![license](https://img.shields.io/badge/license-UNLICENCE-informational?style=flat-square)](LICENSE) 
+[![osslifecycle](https://img.shields.io/osslifecycle/ololx/sbc-bitpool-expander?style=flat)](OSSMETADATA)  [![release_date](https://img.shields.io/github/release-date/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) [![last_commit](https://img.shields.io/github/last-commit/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/commits)
 
----
+![codeql_analysis](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml/badge.svg?style=flat)
+
+[![licence](https://img.shields.io/github/license/ololx/birthday-cake?style=flat)](LICENCE)
+
+![repo_size](https://img.shields.io/github/repo-size/ololx/birthday-cake?logo=github&style=flat) ![languages_code_size](https://img.shields.io/github/languages/code-size/ololx/birthday-cake?logo=github&style=flat) ![languages_count](https://img.shields.io/github/languages/count/ololx/birthday-cake?logo=github&style=flat) ![languages_top](https://img.shields.io/github/languages/top/ololx/birthday-cake?logo=github&style=flat)
+
+[![Java Script](https://img.shields.io/badge/JavaScript-323330?logo=javascript&style=flat)](#built-with) [![HTML](https://img.shields.io/badge/HTML-239120?logo=html5&logoColor=white&style=flat)](#built-with) [![CSS](https://img.shields.io/badge/CSS-239120?&logo=css3&logoColor=white&style=flat)](#built-with)
 
 ## 📇 Table of Contents
 
