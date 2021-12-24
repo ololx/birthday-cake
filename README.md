@@ -78,7 +78,7 @@ To use it is enough to open the `index.html` file in the web-browser.
 - To specify the candles count use the param `candles`.  *For instance setup the 15 candles on the cake:*
 
 ```http
-.../index.html?candles=15
+?candles=15
 ```
 
 Live example here https://ololx.github.io/birthday-cake/?candles=15
@@ -86,7 +86,7 @@ Live example here https://ololx.github.io/birthday-cake/?candles=15
 - To specify the name in the congratulation message use the param `name`.  *For instance setup the `Green` as a name in the congratulation message :*
 
 ```http
-.../index.html?name=Green
+?name=Green
 ```
 
 Live example here https://ololx.github.io/birthday-cake/?name=Green
@@ -94,7 +94,7 @@ Live example here https://ololx.github.io/birthday-cake/?name=Green
 - To specify the congratulations message use the param  `message`.  *For instance setup the greeting message:*
 
 ```http
-.../index.html?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day
+?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day
 ```
 
 Live example here https://ololx.github.io/birthday-cake/?message=Happy%20Birthday,%20Green&message=Have%20a%20nice%20Day
