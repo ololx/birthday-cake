@@ -10,9 +10,9 @@ This is a simple animated birthday cake to congratulate someone.
 
 [![tag](https://img.shields.io/github/v/tag/ololx/birthday-cake?include_prereleases&logo=github&style=flat)](https://github.com/ololx/birthday-cake/tags) [![release](https://img.shields.io/github/v/release/ololx/birthday-cake?include_prereleases&logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) 
 
-[![osslifecycle](https://img.shields.io/osslifecycle/ololx/sbc-bitpool-expander?style=flat)](OSSMETADATA)  [![release_date](https://img.shields.io/github/release-date/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) [![last_commit](https://img.shields.io/github/last-commit/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/commits)
+[![osslifecycle](https://img.shields.io/osslifecycle/ololx/sbc-bitpool-expander?style=flat)](OSSMETADATA) [![release_date](https://img.shields.io/github/release-date/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) [![last_commit](https://img.shields.io/github/last-commit/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/commits)
 
-![codeql_analysis](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml/badge.svg?style=flat)
+[![codeql_analysis](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml/badge.svg?style=flat)](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml)
 
 [![licence](https://img.shields.io/github/license/ololx/birthday-cake?style=flat)](LICENCE)
 
