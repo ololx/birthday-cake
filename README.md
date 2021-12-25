@@ -10,7 +10,7 @@ This is a simple animated birthday cake to congratulate someone.
 
 [![tag](https://img.shields.io/github/v/tag/ololx/birthday-cake?include_prereleases&logo=github&style=flat)](https://github.com/ololx/birthday-cake/tags) [![release](https://img.shields.io/github/v/release/ololx/birthday-cake?include_prereleases&logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) 
 
-[![osslifecycle](https://img.shields.io/osslifecycle/ololx/sbc-bitpool-expander?style=flat)](OSSMETADATA) [![release_date](https://img.shields.io/github/release-date/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases) [![last_commit](https://img.shields.io/github/last-commit/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/commits)
+[![osslifecycle](https://img.shields.io/osslifecycle/ololx/birthday-cake?style=flat)](OSSMETADATA) [![last_commit](https://img.shields.io/github/last-commit/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/commits) [![release_date](https://img.shields.io/github/release-date/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases)
 
 [![codeql_analysis](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml/badge.svg?style=flat)](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml)
 
@@ -18,7 +18,7 @@ This is a simple animated birthday cake to congratulate someone.
 
 ![repo_size](https://img.shields.io/github/repo-size/ololx/birthday-cake?logo=github&style=flat) ![languages_code_size](https://img.shields.io/github/languages/code-size/ololx/birthday-cake?logo=github&style=flat) ![languages_count](https://img.shields.io/github/languages/count/ololx/birthday-cake?logo=github&style=flat) ![languages_top](https://img.shields.io/github/languages/top/ololx/birthday-cake?logo=github&style=flat)
 
-[![Java Script](https://img.shields.io/badge/JavaScript-323330?logo=javascript&style=flat)](#built-with) [![HTML](https://img.shields.io/badge/HTML-239120?logo=html5&logoColor=white&style=flat)](#built-with) [![CSS](https://img.shields.io/badge/CSS-239120?&logo=css3&logoColor=white&style=flat)](#built-with)
+![Java Script](https://img.shields.io/badge/JavaScript-323330?logo=javascript&style=flat) ![HTML](https://img.shields.io/badge/HTML-239120?logo=html5&logoColor=white&style=flat) ![CSS](https://img.shields.io/badge/CSS-239120?&logo=css3&logoColor=white&style=flat)
 
 ## 📇 Table of Contents
 
