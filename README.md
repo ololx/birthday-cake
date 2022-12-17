@@ -12,7 +12,7 @@ This is a simple animated birthday cake to congratulate someone.
 
 [![osslifecycle](https://img.shields.io/osslifecycle/ololx/birthday-cake?style=flat)](OSSMETADATA) [![last_commit](https://img.shields.io/github/last-commit/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/commits) [![release_date](https://img.shields.io/github/release-date/ololx/birthday-cake?logo=github&style=flat)](https://github.com/ololx/birthday-cake/releases)
 
-[![codeql_analysis](https://img.shields.io/github/workflow/status/ololx/birthday-cake/CodeQL?label=CodeQL&logo=github-actions&style=flat)](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml)
+[![codeql_analysis](https://img.shields.io/github/actions/workflow/status/ololx/birthday-cake/codeql-analysis.yml?branch=main&label=CodeQL&logo=github-actions&style=flat)](https://github.com/ololx/birthday-cake/actions/workflows/codeql-analysis.yml)
 
 [![licence](https://img.shields.io/github/license/ololx/birthday-cake?style=flat)](LICENCE)
 
